@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M50,0a50,50 0,1 1,-50,50a50,50 0,1 1,50,-50"
+        android:strokeWidth="0"/>
+
+    <!-- House icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,20L20,50L25,50L25,75L40,75L40,55L60,55L60,75L75,75L75,50L80,50z"
+        android:strokeWidth="0"/>
+
+    <!-- Dollar sign inside the house -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,35L55,30a5,5 0,1 1,10,0v5h-2v10h2v5a5,5 0,1 1,-10,0v-5h2z"
+        android:strokeWidth="0"/>
+</vector>
